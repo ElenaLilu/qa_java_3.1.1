@@ -5,7 +5,7 @@ public class Main {
 
         int credit = 1_000_000;
         double monthlyInterestRate = 0.008325;
-        int numberOfMonth = 24;
+        int numberOfMonth = 36;
         float monthlyPaymentAmount = service.calculate(credit, monthlyInterestRate, numberOfMonth);
 
         System.out.println(monthlyPaymentAmount);
